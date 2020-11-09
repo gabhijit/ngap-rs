@@ -9,6 +9,7 @@ edition = "2018"
 
 [dependencies]
 hex = "*"
+libc = "*"
 
 [build-dependencies]
 bindgen = "0.55.*"
