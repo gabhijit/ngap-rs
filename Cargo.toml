@@ -14,3 +14,11 @@ libc = "*"
 [build-dependencies]
 bindgen = "0.55.*"
 pkg-config = "^0.3"
+
+[dev-dependencies]
+criterion = "0.3"
+hex = "0.4.3"
+
+[[bench]]
+name = "libngap_decode"
+harness = false
